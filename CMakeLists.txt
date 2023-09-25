@@ -69,7 +69,7 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-target_link_libraries(tests GTest::gtest_main ip_filter)
+target_link_libraries(tests GTest::gtest_main bulk)
 
 include(GoogleTest)
 gtest_discover_tests(tests)
