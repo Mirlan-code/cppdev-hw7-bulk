@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <stack>
 #include <chrono>
-
+#include <memory>
 
 using namespace std;
 
